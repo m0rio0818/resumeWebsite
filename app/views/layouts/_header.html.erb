@@ -1,24 +1,27 @@
-<header class="bg-white shadow">
-    <nav class="container mx-auto px-4 py-2 flex justify-between items-center">
-        <div class="text-xl font-bold">
-            <%= link_to 'MyApp', root_path, class: 'text-gray-800' %>
-        </div>
-        <div class="hidden md:flex space-x-4">
-            <%= link_to 'Home', root_path, class: 'text-gray-800 hover:text-blue-600' %>
-            <%= link_to 'Skills', skill_path, class: 'text-gray-800 hover:text-blue-600' %>
-            <%= link_to 'Resume', resume_path, class: 'text-gray-800 hover:text-blue-600' %>
-        </div>
-        <div class="md:hidden">
-            <button id="menu-btn" class="text-gray-800 focus:outline-none">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
-            </button>
-        </div>
-    </nav>
-    <div id="mobile-menu" class="hidden md:hidden bg-white">
-      <%= link_to 'Home', root_path, class: 'block px-4 py-2 text-gray-800 hover:bg-gray-200' %>
-      <%= link_to 'Skills', skill_path, class: 'block px-4 py-2 text-gray-800 hover:bg-gray-200' %>
-      <%= link_to 'Resume', resume_path, class: 'block px-4 py-2 text-gray-800 hover:bg-gray-200' %>
+<header class="bg-blue-200 shadow">
+  <nav class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <div class="text-xl font-bold">
+      <a href="/" class="text-gray-800">MyApp</a>
     </div>
+    <div class="hidden md:flex space-x-4">
+      <a href="/" class="text-gray-800 hover:text-blue-600">Home</a>
+      <a href="/skills" class="text-gray-800 hover:text-blue-600">Skills</a>
+      <a href="/resume" class="text-gray-800 hover:text-blue-600">Resume</a>
+    </div>
+    <div class="md:hidden">
+      <button id="menu-btn" class="text-gray-800 focus:outline-none">
+        <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+        <svg id="close-icon" class="hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="hidden bg-white">
+    <a href="/" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Home</a>
+    <a href="/skills" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Skills</a>
+    <a href="/resume" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Resume</a>
+  </div>
 </header>

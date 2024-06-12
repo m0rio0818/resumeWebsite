@@ -1,4 +1,23 @@
-<div>
-  <h1 class="font-bold text-4xl">Pages#home</h1>
-  <p>Find me in app/views/pages/home.html.erb</p>
+<div class="pt-20">
+  <h1 class="font-bold text-4xl text-center py-2">About Me</h1>
+  <ul class="flex flex-wrap justify-center">
+    <% @projects.each do |project| %>
+      <li class="card m-4 border rounded-lg border-slate-500 jello-horizontal">
+        <div class="card-inner w-80 h-full">
+          <div class="card-header border-b">
+            <h1 class="text-xl text-center my-2"><%= project['name'] %></h1>
+          </div>
+          <div>
+            <%= link_to project['path'], class: 'font-bold flex card-footer justify-between p-3' do %>
+              <p class="my-4 text-center"><%= project['detail'] %></p>
+            <% end %>
+          </div>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+    <div class="max-w-md mx-auto p-4 flex justify-center">
+        <%= link_to image_tag("github-mark.png", alt: "GitHubIcon", width:"35") %>
+        <%= link_to "GitHub", "https://github.com/m0rio0818",  class: "mx-2 flex items-center text-blue-500 hover:underline" %>
+    </div>
 </div>

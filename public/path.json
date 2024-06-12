@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Resume",
+        "path": "/resume",
+        "detail": "これまでの経歴を記載しています。"
+    },
+    {
+        "name": "Skills",
+        "path": "/skill",
+        "detail": "制作してきた成果物の一覧を掲載しています。"
+    }
+]
