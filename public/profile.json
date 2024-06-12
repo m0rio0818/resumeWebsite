@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "title": "MDtoHTML/ マークダウンHTML変換サイト",
+        "summary": "マークダウン記載したものをHTMLに変換するサイトです。",
+        "content": "MDtoHTMLは、MarkDown記載されたコンテンツをHTMLに変換できるサイトです。\n\nこの開発には、バックエンドはPHPで開発を行い、md記載されたファイルをHTMLに変換するところは、Pythonを使用しています。この開発を通じて、PHPの基本的な構文と、ファイルの読み書きについて学ぶことができました。",
+        "url": "https://mdtohtml.nakatani.blog/",
+        "github": "https://github.com/m0rio0818/Markdown-to-HTML",
+        "thumbnail": "MDtoHTML.png"
+    },
+    {
+        "id": 1,
+        "title": "Text Snipetter / コードスニペット投稿サイト",
+        "summary": "会員登録なしで、よく使うコードスニペットを投稿できるサイトです。",
+        "content": "TextSnipetterは、テキストをオンライン上で共有できるサイトです。\n\nこの開発には、バックエンドはPHPで開発を行い、データベースはMySQLを使用しています。\n\nこの開発を通じ、DBからデータの操作を行い、その結果を表示させる動的サイトの作成の基本を学ぶことができました。",
+        "url": "https://text-snippet.nakatani.blog/",
+        "github": "https://github.com/m0rio0818/Text-Snippet-Sharing-Service",
+        "thumbnail": "Snippet.png"
+    },
+    {
+        "id": 2,
+        "title": "PicShare/ 画像共有サイト",
+        "summary": "会員登録なして、画像やテキストを投稿できるサイトです。",
+        "content": "PicShareは、画像ををオンラインでホスティングし、共有できるサイトです。\n\nこのスクリプトの開発には、PHPを使用して作成を行いました。画像を投稿すると、共有用のURLと削除用のURLを作成します。共有用のURLは、誰でもアクセス可能で、削除用URLはアクセスすると、オンライン上にある画像を削除します。このプロジェクト作成で、CRUDのDBの基本操作を行えるようになりました。",
+        "url": "https://pic-share.nakatani.blog/",
+        "github": "https://github.com/m0rio0818/Imageboard-Webapp",
+        "thumbnail": "picShare.png"
+    },
+    {
+        "id": 3,
+        "title": "Image/ 匿名掲示板サイト",
+        "summary": "会員登録なして、画像やテキストを投稿できるサイトです。",
+        "content": "Pechatは、画像やテキストを会員登録なしで、匿名で投稿できるサイトです。\n\nこのスクリプトの開発には、PHPを使用して作成を行いました。また、こちらはDBとしてMySQLを使用し、自己参照型のDBを使用することで、リプライ機能の実装を行いました。",
+        "url": "https://pechat.nakatani.blog/",
+        "github": "https://github.com/m0rio0818/Imageboard-Webapp",
+        "thumbnail": "Pechat.png"
+    },
+    {
+        "id":4,
+        "title": "Playing Card / トランプゲーム",
+        "summary": "4つのゲームモードで遊べるシンプルなトランプゲームです",
+        "content": "Playing Cardは、4つのトランプゲームで遊べるシンプルなトランプゲームです。\n\nこちらは自分と開発経験が同じくらいの方2人とチーム開発で作成しました。バックエンドはNode.js、フロントエンドはTypescript、ゲームシーンを作成するためPhaserというゲーム開発用Javascriptライブラリを使用しました。\n\n この開発を通じて、チームで連携して必要なタスクを振り分けていく経験はもちろん、フロント側の動きと複雑なゲームルールやロジックをつなぎ合わせることを経験することができました。",
+        "url": "https://playing-card-mu.vercel.app/",
+        "github": "https://github.com/Frontend-teamDevC/playing-card",
+        "thumbnail": "Poker.png"
+    }
+]
