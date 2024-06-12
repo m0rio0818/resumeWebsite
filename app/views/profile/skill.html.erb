@@ -4,7 +4,7 @@
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <% @projects.each do |project| %>
-      <div class="p-3 rounded-lg shadow-lg swing-in-top-bck ">
+      <div class="p-3 rounded-lg shadow-lg scale-up-center">
         <div class=" rounded-lg p-3 bg-white">
           <%= link_to project["url"], target: "_blank" do %>
             <%= image_tag(project["thumbnail"], alt: project["title"], class: "w-full h-auto mb-4") %>

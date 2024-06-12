@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "title": "OnlineChatMessenger",
+        "title": "OnlineChatMessenger / オンラインチャット",
         "summary": "リアルタイムでグループチャットを行えるアプリケーション",
         "content": "OnlineChatMessengerは、リアルタイムでグループチャットを手軽に行えるアプリケーションです。\n\nユーザーは必要な情報を入力しチャットルームの作成か既存のチャットルームへの参加し、グループチャットを行えます。\n\nこちらはチームで開発しました。実装はPythonで行い、TCPとUDPを通信を用いてチャット機能の実装を行いました。\n\nこのプロジェクトを通して、TCP/UDPの理解を深めることができました。",
         "url": "https://github.com/Recursion-Group-Backend-c/Online-Chat-Messenge",
@@ -10,7 +10,7 @@
     },
     {
         "id": 1,
-        "title": "MDtoHTML/ マークダウンHTML変換サイト",
+        "title": "MDtoHTML / マークダウンHTML変換サイト",
         "summary": "マークダウン記載したものをHTMLに変換するサイト",
         "content": "MDtoHTMLは、MarkDown記載されたコンテンツをHTMLに変換できるサイトです。\n\nこの開発には、バックエンドはPHPで開発を行い、md記載されたファイルをHTMLに変換するところは、Pythonを使用しています。この開発を通じて、PHPの基本的な構文と、ファイルの読み書きについて学ぶことができました。",
         "url": "https://mdtohtml.nakatani.blog/",
